@@ -1,0 +1,19 @@
+{
+  "name": "way___bej",
+  "version": "1.0.0",
+  "description": "sell beju",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mAnu4ka/way.git"
+  },
+  "author": "mAnu4ka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mAnu4ka/way/issues"
+  },
+  "homepage": "https://github.com/mAnu4ka/way#readme"
+}
