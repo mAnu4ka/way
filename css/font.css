@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Helvetic';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Crimson Text'),
+        url('../font/HelveticaBold/HelveticaBold.woff') format('woff'),
+        url('../font/HelveticaBold/HelveticaBold.ttf') format('ttf'),
+        url('../font/HelveticaBold/HelveticaBold.eot') format('eot');
+}
+
+.font__bold {
+    font-family: 'Helvetic';
+    font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Helvetic';
+	font-style: normal;
+	src: local('Crimson Text'),
+		url('../font/HelveticaLight/HelveticaLight.woff') format('woff'),
+		url('../font/HelveticaLight/HelveticaLight.ttf') format('ttf'),
+		url('../font/HelveticaLight/HelveticaLight.eot') format('eot');
+}
+ 
+.font__light {
+	font-family: 'Helvetic';
+}
