@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,6 +17,18 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 97vh;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 122px;
+
+
+    color: #FFFFFF;
+    margin: 477px auto 26px 0px!important;
+    text-align: end;
 }
 
 :root {
@@ -68,5 +82,23 @@ main {
         line-height: 14px;
         text-transform: uppercase;
         color: var(--maincolor);
+        margin-top: 117.77px;
+
+        font-family: Helvetica;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 14px;
+
+        .active {
+            font-family: Helvetica;
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 14px;
+        }
     }
+}
+
+footer {
+    background-color: #FFFFFF;
+    height: 111px;
 }

@@ -14,14 +14,16 @@
 }
 
 @font-face {
-	font-family: 'Helvetic';
-	font-style: normal;
-	src: local('Crimson Text'),
-		url('../font/HelveticaLight/HelveticaLight.woff') format('woff'),
-		url('../font/HelveticaLight/HelveticaLight.ttf') format('ttf'),
-		url('../font/HelveticaLight/HelveticaLight.eot') format('eot');
+    font-family: 'Helvetic';
+    font-weight: lighter;
+    font-style: normal;
+    src: local('Crimson Text'),
+        url('../font/HelveticaLight/4215-font.otf') format('otf'),
+        url('../font/HelveticaLight/HelveticaLight.woff') format('woff'),
+        url('../font/HelveticaLight/HelveticaLight.ttf') format('ttf'),
+        url('../font/HelveticaLight/HelveticaLight.eot') format('eot');
 }
- 
+
 .font__light {
-	font-family: 'Helvetic';
+    font-family: 'Helvetic';
 }
