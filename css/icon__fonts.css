@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../icon__font/icomoon.eot?kls8qd');
-  src:  url('../icon__font/icomoon.eot?kls8qd#iefix') format('embedded-opentype'),
+  src: url('../icon__font/icomoon.eot?kls8qd');
+  src: url('../icon__font/icomoon.eot?kls8qd#iefix') format('embedded-opentype'),
     url('../icon__font/icomoon.ttf?kls8qd') format('truetype'),
     url('../icon__font/icomoon.woff?kls8qd') format('woff'),
     url('../icon__font/icomoon.svg?kls8qd#icomoon') format('svg');
@@ -10,7 +10,8 @@
   font-display: block;
 }
 
-[class^="_icon-"]::before, [class*=" _icon-"]::before {
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -29,23 +30,29 @@
   content: "\e900";
   color: #60676b;
 }
+
 ._icon-cart_wheel:before {
   content: "\e904";
   color: #60676b;
 }
+
 ._icon-star:before {
   content: "\e903";
   color: #60676b;
 }
+
 ._icon-like:before {
   content: "\e901";
 }
+
 ._icon-logo:before {
   content: "\e902";
 }
+
 ._icon-search:before {
   content: "\e908";
 }
+
 ._icon-user:before {
   content: "\e90a";
 }

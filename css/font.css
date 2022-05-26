@@ -27,3 +27,14 @@
 .font__light {
     font-family: 'Helvetic';
 }
+
+@font-face {
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../font/SignikaNegativemedium/SignikaNegative-Medium.ttf") format('ttf');
+}
+
+.font__SignikaNegative {
+    font-family: 'Signika Negative';
+}
