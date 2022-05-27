@@ -10,8 +10,8 @@
   font-display: block;
 }
 
-[class^="_icon-"]::before,
-[class*=" _icon-"]::before {
+[class^="_icon-"],
+[class*=" _icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -37,7 +37,7 @@
 }
 
 ._icon-star:before {
-  content: "\e903";
+  content: "\e903" !important;
   color: #60676b;
 }
 
@@ -56,3 +56,4 @@
 ._icon-user:before {
   content: "\e90a";
 }
+

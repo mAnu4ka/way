@@ -13,7 +13,8 @@ let header = `<header class="max-width">
     <div class="_icon-user"></div>
 </div>
 </header>
-<aside class="max-width pc-element__890">
+
+<aside class="max-width pc-element__890 flex">
 <ul>
     <li class="active">Домой</li>
     <li>Магазин</li>
@@ -22,5 +23,7 @@ let header = `<header class="max-width">
     <li>о нас</li>
 </ul>
 </aside>`
+let newDoc = new DOMParser().parseFromString(header, "text/html").body.children
 let all__prodaction = document.querySelector('.all__prodaction')
-all__prodaction.innerHTML = all__prodaction
+all__prodaction.prepend(newDoc[0])
+all__prodaction.append(newDoc[0])
